@@ -4,56 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./CSS/index.css">
     <title>TODO</title>
 </head>
 <body>
     <header>
         <section>
-            <img src="./pics/TD.png" alt="logo">
-            <H1>TO - DO </H1>
+            <img ID="LOGO"src="./pics/TD.png" alt="logo" width="60" 
+            height="60" >
+     
         </section>
         <nav>
-            <ul> 
 
-                <li><a href="#">Home</a></li>
-                <li><a href="#ABOUT">ABOUT</a></li>
-                
-            </ul>
+         
+                <a ID ="HOME"href="#">HOME</a>
+                  <a ID="ABOUT"href="ABOUT.HTML">ABOUT</a>
+              
+
+
         </nav>
     </header>
-    <MAIN> <table border="2">
+    <MAIN> 
+        <h4>todo list</h4> 
+        <table border="2">
         <tr>
             <th>TASK</th>
             <th>STATUS</th>
             
         </tr>
         <tr>
-            <td>GO TO THE GYM</td>
-            <td>DONE</td>
+            <td>learn js <input type="checkbox" value="c"></td>
+            <td CLASS="BOX" ID="BOX1"></td>
             
         </tr>
         <tr>
-            <td>STUDY</td>
-            <td>IN PROGRESS </td>
+            <td>create html page <input type="checkbox" value="c"> </td>
+            <td CLASS="BOX"> </td>
 
         </tr>
         <tr>
-            <td>GET A DRINK</td>
-            <td>STILL NOT DONE </td>
+            <td>walk the dog <input type="checkbox" value="c"></td>
+            <td CLASS="BOX"> </td>
 
         </tr>
 
+   <tr>
+            <td>watch the match  <input type="checkbox" value="c"></td>
+            <td CLASS="BOX"></td>
 
+        </tr>
     </table></MAIN>
     <footer>
         <section>
-            <p>THIS DEMO WAS MADE BY OSAMA ALKARMY
+            <p ID="CC">ALL rights reserved 
             </p>
             
         </section >
         <section >
-            <img src="./pics/324_facebookicon.jpg" alt="FACEBOOK">
-            <img src="./pics/INSTA.png" alt="INSTA">
+            <img src="./pics/324_facebookicon.jpg" alt="FACEBOOK" width="70" 
+            height="70" >
+            <img src="./pics/INSTA.png" alt="INSTA" width="70" 
+            height="70" >
         </section>
     </footer>
 </body>
