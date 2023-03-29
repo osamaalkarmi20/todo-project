@@ -1,0 +1,130 @@
+
+header {
+    background-color: rgb(108, 104, 104);
+    position: static;
+    width: 50%;
+
+    
+    padding-right: 700PX;
+   
+    
+}
+
+#LOGO{position:static;
+    TOP:20PX;
+    left: 75PX;
+    }
+#ABOUT{position:relative;
+    BOTTOM:50PX;
+    left: 1050PX;
+    text-decoration: none;
+    background-color: rgb(108, 104, 104);
+   
+}
+
+
+#HOME{position:relative;
+    BOTTOM:50PX;
+    left: 450PX;
+    text-decoration: none;
+    background-color: rgb(108, 104, 104);
+   
+
+}
+main{
+    
+    margin: auto;
+    width: 50%;
+  
+    padding: 10px;
+}
+
+main h6{font-size: larger;
+    position:  relative;
+    left: 150px;
+    BOTTOM:150PX;
+   
+}
+main img{
+    position:  relative;
+     RIGHT:200PX;
+    top: 120px;
+ }
+ #des{
+    position:  relative;
+left: 30PX;
+   bottom: 170PX;
+ }
+ #contact{font-size: large;
+    color:red;
+    position:  relative;
+    left : 200px; 
+    bottom:140px;
+ }
+ #a{
+    position: relative;
+    left : 100px; 
+    bottom:150px;
+ }
+ #b{
+    position:  relative;
+    left : 100px; 
+BOTTOM:170PX;
+ }
+ 
+ #c{
+    position:  relative;
+    left : 100px; 
+    BOTTOM:190PX;
+ }
+ 
+ #d{
+    position:  relative;
+    left : 100px; 
+     BOTTOM:210px;
+ }
+ 
+#fname{
+    
+        position: relative;
+        left : 220px; 
+       bottom: 170PX;
+     }
+
+      
+#e{
+    
+    position: relative;
+    left : 220px; 
+    bottom: 200PX;
+
+ }
+ #M{
+    
+    position: relative;
+    left : 220px; 
+    bottom: 220PX;
+
+ }
+ #P{
+    
+    position: relative;
+    left : 220px; 
+    BOTTOM:240px;
+ }
+
+ #S{
+    
+    position: relative;
+    left : 220px; 
+    bottom:260px;
+ }
+
+
+
+footer{position: relative;background-color: rgb(108, 104, 104);
+ 
+    padding-left: 600PX;
+    BOTTOM:240PX;
+ }
+ 
