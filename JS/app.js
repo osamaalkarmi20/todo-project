@@ -19,6 +19,7 @@ if (gender == "male" || gender == "female") {
 var age = prompt('Please enter your age');
  if(age <= 0){
      alert("Your age cant be " +age);
+     prompt('Please enter your age');
 
 }else{
    console.log(age);
