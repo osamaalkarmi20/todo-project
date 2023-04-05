@@ -1,4 +1,5 @@
 'use strict';
+
 let arr=new Array;
 /*calling functions to make sure to take answers for the required questions as name and age and gender*/
 nameCheck();
@@ -37,6 +38,7 @@ let age = prompt('Please enter your age');
 /*welcome massege confirming:         *************************************/
 
 
+
  if (confirm("confirm if he wants to skip the welcoming message")) {
     text = "You pressed OK!";
   } else {
@@ -50,6 +52,7 @@ let age = prompt('Please enter your age');
                         alert("welcome  "+ " "+fullName);
                    }
                 }
+
 
 }
 /*question 1 yes/no:                      *************************************/
@@ -90,3 +93,6 @@ for(let i=0;i<arr.length;i++)
   console.log(arr[i]);
 }
    console.log(arr);
+
+}
+
