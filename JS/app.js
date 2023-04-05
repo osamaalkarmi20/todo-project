@@ -16,9 +16,9 @@ if (gender == "male" || gender == "female") {
     text = "User cancelled the prompt.";
   
 }
-var age = prompt('Please enter your age');
- if(age <= 0){
-     alert("Your age cant be " +age);
+let age = prompt('Please enter your age');
+ if(age <= 0 || age== null || age == ""){
+     alert("Your age cant be 0" );
      prompt('Please renter your age');
 
 }else{
